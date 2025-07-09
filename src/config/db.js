@@ -18,7 +18,7 @@ require('dotenv').config(); // Must be at the top
 const mongoose = require('mongoose');
 
 const connectDB = async () => {
-  const mongoUri = process.env.MONGO_URI;
+  const mongoUri = process.env.MONGO_URI | 1000;
 
   if (!mongoUri) {
     console.error('❌ MONGO_URI is undefined');
