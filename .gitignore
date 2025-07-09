@@ -1,0 +1,17 @@
+# Node
+node_modules/
+.env
+npm-debug.log
+package-lock.json
+
+# React/Vite/Next.js/Build
+build/
+dist/
+
+# Logs
+logs/
+*.log
+
+# OS/System
+.DS_Store
+Thumbs.db
